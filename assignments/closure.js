@@ -1,6 +1,22 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function candyBar() {
+  const sweet1 = 'chocolate';
+  console.log(`My favorite sweet is ${sweet1}`);
 
+  function hardCandy() {
+    const sweet2 = 'nerds';
+    console.log(sweet2);
+
+    function notCandy() {
+      const notSweet = 'Doritos';
+      console.log(notSweet);
+    }
+    notCandy();
+  }
+  hardCandy();
+}
+candyBar();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
